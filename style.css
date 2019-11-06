@@ -1,0 +1,184 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+
+    height: 100%;
+    background-color:#93F4EC;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+#container{
+
+    display: inline-block;
+    width: 500px;
+    background: whitesmoke;
+    border: 3px solid white;
+    border-radius:5px;
+    box-shadow: 0 0 5px rgba(96, 0, 127, 0.2);
+    
+}
+
+#headline{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 55px;
+    line-height: 45px;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    color: black;
+    background: pink;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #ffffff;
+
+}
+
+#todoinput{
+    display: inline-block;
+    padding: 10px;
+    height: 40px;
+    outline: none;
+    background-color: #fff;
+    width: 400px;
+    font-size: 12px;
+    margin:5px;
+    border-radius: 25px;
+    text-align: left;
+    margin-bottom: 30px;
+    border: 3px pink solid;
+    letter-spacing: 1px;
+    
+}
+
+#submitbtn{
+
+    width: 30px;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 900;
+    background: black;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+
+#filterfield{
+    
+    padding: 10px;
+    height: 40px;
+    outline: none;
+    background-color: #fff;
+    width: 440px;
+    font-size: 12px;
+    margin:5px;
+    border-radius: 25px;
+    text-align: left;
+    margin-bottom: 30px;
+    border: 3px pink solid;
+    letter-spacing: 1px;
+}
+
+#ul-list{
+
+    display: inline-block;
+    width: 500px;
+    background: whitesmoke;
+    border: 3px solid white;
+    border-radius:5px;
+    box-shadow: 0 0 5px rgba(96, 0, 127, 0.2);
+    text-align: left;
+    list-style-type: none;
+}
+
+ul li{
+    display:flex;
+    padding:10px;
+    cursor: pointer;
+}
+
+ul li:nth-child(odd) {
+    background: #ffffff;
+  }
+
+ul li:hover {
+    background: #ddd;
+}
+
+ul li div{
+    flex: 1;
+    font-size: 15px;
+}
+
+#categories{
+    
+    
+    margin-left:10px;
+    border: 3px pink solid;
+    width: 83px;
+    cursor: pointer;  
+    
+}
+
+#todoExpirationDate{
+    margin-left:10px;
+    border: 3px pink solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#date-label{
+    margin-left:10px;
+    font-size: 13px;
+}
+
+#label-categorie{
+    margin-left: 20px;
+    font-size:13px;
+}
+
+.removeButton{
+    
+    width: 25px;
+    border-radius: 25px;
+    font-size: 10;
+    color:pink;
+    font-weight: 900;
+    cursor: pointer;
+}
+.radio-buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 13px;
+    margin-left: 25px;
+    margin-right:25px;
+    
+    
+}
+
+#radio-all{
+    margin-right: -15px;
+    cursor: pointer;
+    
+}
+
+#radio-no{
+    margin-right:-15px;
+    cursor: pointer;
+}
+
+#radio-fun{
+    margin-right:-15px;
+    cursor: pointer;
+}
+
