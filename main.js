@@ -86,7 +86,7 @@ const submitButton = document.querySelector("#submitbtn")
 submitButton.addEventListener("click", function(event){
     event.preventDefault()
     if( todoTitleInput.value === "" || selectBoxCategory.value === "default"){
-        alert("Please add stuff to do and pick a categorie, I know you have some sh*t going on!")
+        alert("Please add stuff to do and pick a category, I know you have some sh*t going on!")
     }
     else if(todoTitleInput.value !== ""){
     
