@@ -113,7 +113,7 @@ filterField.addEventListener("input", function(event){
 })
 
 
-// FILTRERING AV KATEGORIER FUNGERAR MED ONCLICK ISTÄLLET
+
 
 function filterByCategory(event){
     if(event.value === "all"){
@@ -133,6 +133,28 @@ function filterByCategory(event){
     drawList(newCategoryList)
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -161,7 +183,7 @@ option.addEventListener("click", function(){
       drawList(todoList) 
     }
     else{
-        filterByCategory(option.value)  
+        filterByCategory(option.value)  // MÅSTE VÄRDET SPARAS NER I EN VARIABEL FÖRST?!
     }
     
 })
